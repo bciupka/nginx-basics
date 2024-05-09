@@ -7,3 +7,9 @@ app = FastAPI()
 async def get_ping():
     print("pong")
     return "Hello"
+
+
+@app.get("/another")
+async def another():
+    print("another")
+    return "World"
