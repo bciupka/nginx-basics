@@ -1,0 +1,9 @@
+**/venv
+**/__pycache__
+**/.vscode
+*.exe
+/contrib
+/docs
+/html
+/logs
+/temp
